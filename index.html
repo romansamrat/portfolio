@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Md. Roman - CV</title>
+<title>Md. Roman | CV</title>
 
 <style>
 *{
@@ -21,10 +21,10 @@ body{
 .container{
     max-width:900px;
     margin:auto;
-    background:white;
+    background:#fff;
     border-radius:12px;
     overflow:hidden;
-    box-shadow:0 0 15px rgba(0,0,0,0.15);
+    box-shadow:0 4px 15px rgba(0,0,0,0.15);
 }
 
 .header{
@@ -35,12 +35,17 @@ body{
 }
 
 .header h1{
-    font-size:36px;
+    font-size:40px;
+    margin-bottom:10px;
 }
 
 .header p{
-    font-size:18px;
-    margin-top:10px;
+    margin:5px 0;
+}
+
+.header a{
+    color:white;
+    text-decoration:none;
 }
 
 .section{
@@ -49,17 +54,18 @@ body{
 
 .section h2{
     color:#007bff;
-    margin-bottom:10px;
     border-bottom:2px solid #007bff;
-    padding-bottom:5px;
+    padding-bottom:8px;
+    margin-bottom:15px;
+}
+
+.section p,
+.section li{
+    line-height:1.8;
 }
 
 ul{
     padding-left:20px;
-}
-
-li,p{
-    line-height:1.8;
 }
 
 .footer{
@@ -68,9 +74,14 @@ li,p{
     text-align:center;
     padding:15px;
 }
+
+@media(max-width:600px){
+    .header h1{
+        font-size:30px;
+    }
+}
 </style>
 </head>
-
 <body>
 
 <div class="container">
@@ -78,30 +89,33 @@ li,p{
     <div class="header">
         <h1>Md. Roman</h1>
         <p>Student | Bangladesh Red Crescent Society Member</p>
-    </div>
-
-    <div class="section">
-        <h2>Contact Information</h2>
-        <p><strong>Phone:</strong> +880 1407-715702</p>
-        <p><strong>Email:</strong> romanamiya30@gmail.com</p>
-        <p><strong>Address:</strong> Bangladesh</p>
-    </div>
-
-    <div class="section">
-        <h2>Profile</h2>
+        <p>📞 +880 1407-715702</p>
+        <p>✉️ romanamiya30@gmail.com</p>
         <p>
-            Motivated and dedicated student with strong communication,
-            leadership and teamwork skills. Passionate about learning,
-            volunteering and personal development.
+            <a href="https://www.facebook.com/share/18n5wDGNac/" target="_blank">
+                Facebook Profile
+            </a>
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>Professional Summary</h2>
+        <p>
+            A motivated and dedicated university student with strong leadership,
+            communication, and teamwork skills. Currently studying at Green
+            University of Bangladesh and actively involved in volunteer
+            activities as a member of the Bangladesh Red Crescent Society.
+            Passionate about learning, personal development, and contributing
+            positively to society.
         </p>
     </div>
 
     <div class="section">
         <h2>Education</h2>
         <ul>
-            <li>Green University of Bangladesh</li>
-            <li>Government Murapara College (HSC)</li>
-            <li>Murapara Govt. Pilot Model High School (SSC)</li>
+            <li><strong>Green University of Bangladesh</strong> – Undergraduate Student</li>
+            <li><strong>Government Murapara College</strong> – Higher Secondary Certificate (HSC)</li>
+            <li><strong>Murapara Govt. Pilot Model High School</strong> – Secondary School Certificate (SSC)</li>
         </ul>
     </div>
 
@@ -113,6 +127,7 @@ li,p{
             <li>Teamwork</li>
             <li>Problem Solving</li>
             <li>Time Management</li>
+            <li>Volunteer Management</li>
         </ul>
     </div>
 
@@ -126,8 +141,8 @@ li,p{
     <div class="section">
         <h2>Languages</h2>
         <ul>
-            <li>Bangla</li>
-            <li>English</li>
+            <li>Bangla (Native)</li>
+            <li>English (Intermediate)</li>
         </ul>
     </div>
 
@@ -138,4 +153,4 @@ li,p{
 </div>
 
 </body>
-            </html>
+    </html>
